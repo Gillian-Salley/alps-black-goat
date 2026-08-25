@@ -1,0 +1,26 @@
+export type MenuItem = { name: string; unit: string; price: string; description: string; category: "구이" | "탕" | "세트" | "코스"; badge?: string };
+
+export const menuItems: MenuItem[] = [
+  { name: "염소불고기", unit: "120g", price: "29,000원", description: "달콤짭짤, 남녀노소 실패 없는 인기 메뉴", category: "구이", badge: "BEST" },
+  { name: "염소소금구이", unit: "120g", price: "29,000원", description: "고기 본연의 맛을 깔끔하게 즐기는 담백한 구이", category: "구이" },
+  { name: "염소육회", unit: "小", price: "50,000원", description: "탱글탱글한 신선함과 고소함 · 大 90,000원", category: "구이" },
+  { name: "염소너비아니", unit: "", price: "35,000원", description: "알프스 시그니처 와플 떡갈비", category: "구이", badge: "BEST" },
+  { name: "귀빈탕", unit: "", price: "39,000원", description: "염소고기와 한약재로 완성한 정성 보양탕", category: "탕", badge: "BEST" },
+  { name: "황후탕", unit: "", price: "29,000원", description: "은이버섯과 흑염소로 만든 여성 프리미엄 보양탕", category: "탕" },
+  { name: "기센탕", unit: "", price: "29,000원", description: "낙지와 염소고기의 만남, 힘이 필요한 날", category: "탕" },
+  { name: "인삼고기탕", unit: "", price: "29,000원", description: "인삼과 염소로 몸속까지 든든하게", category: "탕" },
+  { name: "몸살탕", unit: "", price: "24,000원", description: "따뜻하게 속을 달래주는 보양 한 그릇", category: "탕" },
+  { name: "염소고기탕", unit: "", price: "19,000원", description: "염소고기 듬뿍 · 특 24,000원", category: "탕" },
+  { name: "염소곰국", unit: "", price: "19,000원", description: "진하게 우려낸 깊고 따뜻한 맛", category: "탕" },
+  { name: "염소보양곰국", unit: "小", price: "59,000원", description: "中 79,000원 · 大 99,000원", category: "탕" },
+  { name: "염소전골", unit: "小 · 2인", price: "59,000원", description: "中 79,000원(3인) · 大 109,000원(4인)", category: "탕" },
+  { name: "2인 인삼세트", unit: "", price: "79,000원", description: "240g + 인삼고기탕 1", category: "세트" },
+  { name: "2인 귀빈세트", unit: "", price: "89,000원", description: "240g + 귀빈탕 1", category: "세트" },
+  { name: "3인 일반세트", unit: "", price: "129,000원", description: "360g + 염소고기탕 1 + 몸살탕 1", category: "세트" },
+  { name: "3인 고급세트", unit: "", price: "149,000원", description: "360g + 인삼고기탕 1 + 귀빈탕 1", category: "세트" },
+  { name: "4인 일반세트", unit: "", price: "149,000원", description: "480g + 염소고기탕 1 + 몸살탕 1", category: "세트" },
+  { name: "4인 고급세트", unit: "", price: "169,000원", description: "480g + 인삼고기탕 1 + 귀빈탕 1", category: "세트" },
+  { name: "코스 A", unit: "1인", price: "70,000원", description: "육회 + 구이 + 전골 또는 곰국", category: "코스" },
+  { name: "코스 B", unit: "1인 · 예약", price: "90,000원", description: "육회 + 수육 + 구이 + 전골 또는 곰국", category: "코스" },
+  { name: "코스 C", unit: "접대용 · 예약", price: "100,000원", description: "육회 + 갈비 + 구이 + 미니귀빈탕", category: "코스", badge: "BEST" },
+];
