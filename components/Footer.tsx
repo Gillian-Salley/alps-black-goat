@@ -27,7 +27,17 @@ export default function Footer() {
 
       <div className="footerCredit">
         <small>© ALPS AGRICULTURAL UNION CORPORATION.</small>
+
         <span>Designed by Giryeong Kim</span>
+
+        <a
+          href="https://app.notion.com/p/3a6bc63c9c93809ead5adb727fc9e9ce?source=copy_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="!text-inherit !underline "
+        >
+          디자인 문의 ↗
+        </a>
       </div>
     </footer>
   );
