@@ -10,7 +10,7 @@ export default function Header() {
   const closeMenu = () => setMenuOpen(false);
   return <header className={menuOpen ? "menuOpen" : ""}>
     <a className="brand" href="#top" onClick={closeMenu} aria-label="알프스 흑염소 홈"><img src="/goatlogo.svg" alt="알프스 흑염소" /></a>
-    <nav className={menuOpen ? "open" : ""} aria-label="주요 메뉴">{navigation.map(([label, href]) => <a key={href} href={href} onClick={closeMenu} className="lg:text-[24px] md:text-[20px] text-[18px]  ">{label}</a>)}</nav>
+    <nav className={menuOpen ? "open" : ""} aria-label="주요 메뉴">{navigation.map(([label, href]) => <a key={href} href={href} onClick={closeMenu} className="lg:text-[24px] md:text-[20px] text-[18px] tracking-[-1.5px] ">{label}</a>)}</nav>
     <div className="headcallWrap flex gap-2">
     <a className="headcall" href="tel:052-254-8306"><PhoneIcon /> 예약 문의</a>
     <a
