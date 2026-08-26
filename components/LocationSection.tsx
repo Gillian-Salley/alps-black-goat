@@ -10,7 +10,7 @@ export default function LocationSection() {
         <p className="eyebrow dark">LOCATION</p>
 
         <h2>
-          알프스 흑염소
+          알프스염소
           <br />
           찾아오시는 길
         </h2>
@@ -21,6 +21,8 @@ export default function LocationSection() {
             울산광역시 울주군 언양읍
             <br />
             정거고중길 2-27, 1동 2층
+            <br />
+            (가천린포크 맞은편)
           </dd>
 
           <dt>예약 문의</dt>
