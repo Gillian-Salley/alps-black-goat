@@ -15,7 +15,7 @@ export default function Header() {
     <a className="headcall" href="tel:052-254-8306"><PhoneIcon /> 예약 문의</a>
     <a
       className="headcall"
-      href="https://smartstore.naver.com/alpsgoat"
+      href="https://smartstore.naver.com/alpsgoat?NaPm=ct%3Dmtcpn1ho%7Cci%3Dshopn%7Ctr%3Dnslsl%7Chk%3D3201eaad50a4df8d0a0670b407a47086d258a234%7Ctrx%3Dundefined"
       target="_blank"
       rel="noopener noreferrer"
     >
