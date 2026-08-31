@@ -3,4 +3,7 @@ node_modules
 .vercel
 .env*
 *.log
+out/
+# macOS
 .DS_Store
+.localized
